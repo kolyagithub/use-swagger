@@ -1,0 +1,29 @@
+{
+  "name": "use-swagger",
+  "version": "1.0.0",
+  "description": "Use swagger 2.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolyagithub/use-swagger.git"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "author": "qudrat abdullaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolyagithub/use-swagger/issues"
+  },
+  "homepage": "https://github.com/kolyagithub/use-swagger#readme",
+  "dependencies": {
+    "express": "4.13.4",
+    "body-parser": "1.15.2",
+    "morgan": "1.7.0",
+    "swagger-ui": "2.1.5",
+    "underscore": "1.8.3"
+  }
+}

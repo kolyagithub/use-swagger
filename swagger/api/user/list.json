@@ -1,0 +1,44 @@
+{
+  "get": {
+    "tags": [
+      "User"
+    ],
+    "summary": "Users all",
+    "description": "",
+    "operationId": "usersAll",
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ],
+    "responses": {
+      "200": {
+        "description": "successful operation",
+        "schema": {
+          "type": "array",
+          "items": {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "example": 1
+              },
+              "firstName": {
+                "type": "string",
+                "example": "Anton"
+              },
+              "lastName": {
+                "type": "string",
+                "example": "Chexov"
+              },
+              "age": {
+                "type": "integer",
+                "example": 25
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
